@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.3512c50c.js",
+    "static/media/BookiDesktop.png": "/portfolio/static/media/BookiDesktop.194ce640491309c8803c.png",
+    "static/media/ChouetteDesktop.png": "/portfolio/static/media/ChouetteDesktop.ac2761d644c2b4886965.png",
+    "static/media/GroupoDesktop.png": "/portfolio/static/media/GroupoDesktop.fcc8b13ddc45eda73ba5.png",
+    "static/media/OhmyfoodDesktop.png": "/portfolio/static/media/OhmyfoodDesktop.03fe23ac65b0258c3c9f.png",
+    "static/media/HottakesDesktop.png": "/portfolio/static/media/HottakesDesktop.a21ac950ae36df93edb1.png",
+    "static/media/KanapDesktop.png": "/portfolio/static/media/KanapDesktop.f870fd7efbf942e0fb4e.png",
+    "static/media/face.png": "/portfolio/static/media/face.5dff727f019fe1a46b8a.png",
+    "static/media/nsrs.png": "/portfolio/static/media/nsrs.7719de85e20b3a55d90b.png",
+    "static/media/nem.png": "/portfolio/static/media/nem.a9580891550bcf48d267.png",
+    "static/media/hcs.png": "/portfolio/static/media/hcs.85577113e00698530d7a.png",
+    "static/media/js.png": "/portfolio/static/media/js.ca1692b2e0bd79e70a16.png",
+    "static/media/googhtmlcss.png": "/portfolio/static/media/googhtmlcss.e5b8f1b0e0a728e71e2a.png",
+    "static/media/htmlcss.png": "/portfolio/static/media/htmlcss.9c980b78154b1d9aabcb.png",
+    "static/media/Groupo.png": "/portfolio/static/media/Groupo.837f24cb4eb413b2252e.png",
+    "static/media/Kanap.png": "/portfolio/static/media/Kanap.ee02a478bc24b05af54c.png",
+    "index.html": "/portfolio/index.html",
+    "main.3512c50c.js.map": "/portfolio/static/js/main.3512c50c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3512c50c.js"
+  ]
+}
