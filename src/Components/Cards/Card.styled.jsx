@@ -9,8 +9,12 @@ export const Container = styled.div`
                 background-color: ${props => props.theme.primary};
                 transform: scale(1.05);
                 transition:250ms ease-in-out;
-                box-shadow: 8px 5px 17px 3px rgba(0,0,0,.3);
-      
+                box-shadow: 8px 5px 17px 3px rgba(0,0,0,.3); 
+        }
+
+        @media (max-width: 680px) {
+                flex-direction: column-reverse;
+                margin: 4rem;
         }
 ` 
 
@@ -23,8 +27,14 @@ export const Description = styled.div`
         justify-content:space-between;
         align-items: end;
         margin-left: 4rem;
-        height: 50vh;
+        min-height: 50vh;
         width: 40%;
+        @media (max-width: 680px) {
+                align-items: left;
+                margin: 0;
+                width: 80vw;
+                min-height: 0;
+        }
 
         .sm{
         width: 50%;
@@ -49,16 +59,31 @@ export const Description = styled.div`
         .stack{
         padding-right:6px;
         height: 3.5rem;
+        @media (max-width: 680px) {
+                margin:1rem 0;
+        }
         }
 `
 
 export const ImgWrap = styled.div`
         overflow: hidden;  
         height: 100%;
+        width: 40vw;
+        @media (max-width: 680px) {
+                width: 90vw;
+                height: 100%;
+                
+        }
 
         img{
-                width:100%;
+                height:100%;
+                min-width: 40vw;
+                object-fit: cover;
                 object-position: top left;
+                @media (max-width: 680px) {
+                        width: 100%;
+                        object-position:top center;
+                }
         }
 `
 
@@ -75,6 +100,12 @@ export const Content = styled.div`
         text-align: left;
         transform: scale(1);
         transition: 500ms ease-in-out;
+        @media (max-width: 680px) {
+                max-width: none;
+                height: 50vh;   
+                background-color: ${props => props.theme.primary};
+        }
+
 
         .linksContainer{
                 display: flex;
@@ -87,6 +118,11 @@ export const Content = styled.div`
                 height: 3rem;
                 transform:translateY(5rem);
                 transition: 500ms ease-in-out;  
+                @media (max-width: 680px) {
+                        transform: none;
+                        transition: none;
+                        height: 4rem;
+                }
         }
         &:hover .linksContainer{
                 transform: translateY(0);
@@ -104,6 +140,9 @@ export const LinkButton = styled.button`
         margin: 0 1.6rem;
         background-color: ${props => props.theme.primary};
         opacity:3;
+        @media (max-width: 680px) {
+                height: 3rem;
+        }
 
         &:hover{
                 cursor: pointer;

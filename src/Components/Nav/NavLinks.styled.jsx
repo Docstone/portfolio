@@ -12,13 +12,24 @@ export const Wrapper = styled.nav`
     color: #090606;
     z-index: 10;
     
+    @media (max-width: 680px) {
+        position: absolute;
+        flex-direction: row;
+        width:50vw;
+        height: 5rem;
+        margin: 0; 
+    }
+
     .Icons{
         margin: 1.5rem 0 0 1rem;
-        
-        &Link{
-            height: 3rem;
-            color: black;
+        @media (max-width: 680px) {
+            margin: 4vh 1rem 0;
+            height: 8vw;
+            width: 8vw;
+        }
 
+        &Link{
+            color: black;
             &:hover{
                 cursor: pointer;
                 color: #ba8722;
@@ -29,6 +40,10 @@ export const Wrapper = styled.nav`
 
     .contactWrap{
             margin-top: 14vh;
+
+            @media (max-width: 680px) {
+                margin: 0;
+            }
         }
 `;
 
@@ -40,6 +55,9 @@ export const Button = styled.div`
    cursor: pointer;
    color: #000000;
    &:hover{
-    color: #ba8722;
+        color: #ba8722;
+   }
+   @media (max-width: 680px) {
+     
    }
 `
