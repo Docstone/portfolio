@@ -24,8 +24,8 @@ export const Wrapper = styled.nav`
         margin: 1.5rem 0 0 1rem;
         @media (max-width: 680px) {
             margin: 4vh 1rem 0;
-            height: 8vw;
-            width: 8vw;
+            height: 2.5rem;
+            width: 2.5rem;
         }
 
         &Link{
@@ -57,7 +57,10 @@ export const Button = styled.div`
    &:hover{
         color: #ba8722;
    }
-   @media (max-width: 680px) {
-     
+
+   .scrollArrow{
+    width: 2.5rem;
+    height: 2.5rem;
+
    }
 `

@@ -32,8 +32,8 @@ const ScrollButton = () =>{
   return (
     <Button>
      <Fade duration={5000}>
-         <FaArrowCircleUp onClick={scrollToTop}
-         size={"3.5vw"}
+         <FaArrowCircleUp className='scrollArrow'
+         onClick={scrollToTop}
          style={{display: visible ? 'inline' : 'none' }} />
      </Fade>
     </Button>
