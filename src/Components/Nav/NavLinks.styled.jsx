@@ -15,7 +15,7 @@ export const Wrapper = styled.nav`
     @media (max-width: 680px) {
         position: absolute;
         flex-direction: row;
-        width:50vw;
+        width:100vw;
         height: 5rem;
         margin: 0; 
     }
@@ -35,7 +35,6 @@ export const Wrapper = styled.nav`
                 color: #ba8722;
             }
         }
-      
     }
 
     .contactWrap{
@@ -54,6 +53,7 @@ export const Button = styled.div`
    z-index: 1;
    cursor: pointer;
    color: #000000;
+   
    &:hover{
         color: #ba8722;
    }
@@ -61,6 +61,5 @@ export const Button = styled.div`
    .scrollArrow{
     width: 2.5rem;
     height: 2.5rem;
-
    }
 `
