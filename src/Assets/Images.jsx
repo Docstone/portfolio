@@ -17,6 +17,7 @@ const Images = {
     hottakesSC: require( "./HottakesDesktop.png"),
     groupoLogo: require( "./Groupo.png"),
     groupoSC :require( "./GroupoDesktop.png"),
+    background :require( "./parallax-background.jpg")
 }
 
 

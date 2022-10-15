@@ -9,7 +9,7 @@ export const Card = (props) => {
           </ImgWrap>
           <div className="linksContainer"> 
           {props.Links ? props.Links.map(link => (
-            <a href={link.url} target="_blank" rel="noreferrer">
+            <a href={link.url} key={link.url} target="_blank" rel="noreferrer">
               <LinkButton>{link.text}</LinkButton>
             </a>
           )) : <div></div>}

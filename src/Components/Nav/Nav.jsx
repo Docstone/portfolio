@@ -9,7 +9,7 @@ const Nav = () => {
             <Wrapper>
              <Slide>
                  <div className="contactWrap">
-                    <IconContext.Provider value={{ size: "3.5vw", className: 'Icons' }}>
+                    <IconContext.Provider value={{ size: "35", className: 'Icons' }}>
                         <a className="IconsLink" href="mailto:darochamtth@gmail.com">
                             <FaEnvelope title={"Envoyer un Email"}/>
                         </a>

@@ -11,9 +11,9 @@ export const Content = styled.div`
     color: #000000;
 
     @media (max-width: 680px) {
-    margin: max(16vh, 2rem) .5rem 10vh;
+    margin: max(14vh, 2rem) 2vw 10vh;
     width:95%;
-    padding: 0 ;
+    padding: 0 2rem ;
     }
 
     h1{
@@ -56,9 +56,9 @@ export const Content = styled.div`
 
        @media (max-width: 680px) {
         position: absolute;
-        height: min(35vw, 10rem);
-        top: 5vw;
-        right: 8vw;
+        min-height: 35vw;
+        top: 8vh;
+        right: 2rem;
         }
 
         & img{

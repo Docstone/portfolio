@@ -13,17 +13,17 @@ export const Wrapper = styled.nav`
     z-index: 10;
     
     @media (max-width: 680px) {
-        position: absolute;
+        position: relative;
         flex-direction: row;
-        width:100vw;
+        width: 100vw;
         height: 5rem;
-        margin: 0; 
+        margin: 2rem 0 0; 
     }
 
     .Icons{
         margin: 1.5rem 0 0 1rem;
         @media (max-width: 680px) {
-            margin: 4vh 1rem 0;
+            margin: 2vh 1rem 0;
             height: 2.5rem;
             width: 2.5rem;
         }
@@ -41,7 +41,7 @@ export const Wrapper = styled.nav`
             margin-top: 14vh;
 
             @media (max-width: 680px) {
-                margin: 0;
+                margin: 7vh 2vw;
             }
         }
 `;

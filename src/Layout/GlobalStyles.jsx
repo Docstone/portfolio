@@ -5,13 +5,17 @@ const GlobalStyle = createGlobalStyle`
     * {
     box-sizing: border-box;
     }
-
-    body {
+  
+    body, .Wrap{ 
+        margin: 0; 
+        padding: 0; 
+        min-height: 100vh;
         background: #ffffff;
         font-family: 'Inconsolata', monospace;
         font-weight: 600;
         overflow-x: hidden;
     }
+
 
     h1 {
         margin: 0;
