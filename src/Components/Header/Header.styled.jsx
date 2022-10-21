@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Images from "../../Assets/Images" 
+import { fadeIn } from "../../Layout/GlobalStyles"
 
 export const Content = styled.div`
     display: flex;
@@ -10,25 +11,27 @@ export const Content = styled.div`
     margin: 3rem auto;
     padding: 2rem 2rem 1rem;
     color: #000000;
+    animation: ${fadeIn} 1.5s ease-out;
 
     @media (max-width: 680px) {
     margin: max(15vw, 2rem) 2vw 10vh;
     width:95%;
-    padding: 0 2rem ;
+    padding: 0 .7rem ;
     }
     .headerText{
         z-index: 1;
+        animation: ${fadeIn} 2s ease-out;
     }
     h1{
         color: #000000;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         @media (max-width: 680px) {
             margin-bottom: 1.3rem;
         }
     }
 
     h2{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
         margin: 0;
         @media (max-width: 680px) {
             font-size: 1.8rem;
@@ -42,14 +45,19 @@ export const Content = styled.div`
         }
 
         span{
-        color: #f99a00;
+        color: #dd6829;
         font-size: 1.4rem;
         }
     }
 
     p{
-        font-size: 1.1rem;
-        margin: 0;
+        font-size: 1rem;
+        max-width: 45vw;
+        margin: 0 0 20px;
+        @media (max-width: 680px) {
+        max-width: none;
+
+        }
     }
 
     .faceWrap{
@@ -57,10 +65,12 @@ export const Content = styled.div`
        border-radius: 50%;
        margin-left: 1rem;
        z-index: 1;
+       animation: ${fadeIn} 1.2s ease-out;
+
 
        @media (max-width: 680px) {
         position: absolute;
-        min-height:8rem;
+        min-height:30vw;
         top:4rem;
         right: 2rem;
         }
@@ -82,6 +92,7 @@ export const Banner = styled.div`
     background-position: 50% 55%;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: ${fadeIn} 1s 1 ease-out;
     
     &::after{
         content: "";
@@ -91,14 +102,10 @@ export const Banner = styled.div`
         width: 100vw;
         height: 100vh;
         background: rgb(255,255,255);
-        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(234,238,237,1) 10%, rgba(21,67,51,0) 100%);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(234,238,237,.7) 25%, rgba(21,67,51,0) 100%);
         
         @media (max-width: 680px ) {
-            background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(234,238,237, 1) 15%, rgba(21,67,51,0) 100%);
+            background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(234,238,237,.4) 40%, rgba(21,67,51,0) 100%);
     }
-    }
+}`
 
-    @media (max-width: 680px ) {
-        background-position: 50% 20%;
-    }
-`

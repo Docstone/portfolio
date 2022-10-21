@@ -1,11 +1,14 @@
 import styled from "styled-components";
+import { fadeIn } from "../../Layout/GlobalStyles";
 
 export const Container = styled.div`
         display: flex;
         flex-direction: row;
         align-items:center;
-        margin: 20vh 0 13vh 13vw;
+        margin: 10vh 0 10vh 13vw;
         z-index: 1;
+        animation: ${fadeIn} 1.5s ease-out;
+
         &:hover .content{
                 background-color: ${props => props.theme.primary};
                 transform: scale(1.05);
@@ -30,11 +33,12 @@ export const Description = styled.div`
         align-items: end;
         margin-left: 4rem;
         min-height: 50vh;
+        max-width: 45ch;
         width: 40%;
         @media (max-width: 680px) {
                 align-items: left;
                 margin: 0;
-                width: 80vw;
+                width: 94vw;
                 min-height: 0;
         }
 
@@ -55,7 +59,8 @@ export const Description = styled.div`
         }
 
         p{
-        margin:0;
+        margin: 0;
+        font-size:.9rem;
         }
 
         .stack{
@@ -63,18 +68,17 @@ export const Description = styled.div`
         height: 3.5rem;
         @media (max-width: 680px) {
                 margin:1rem 0;
-        }
+                }
         }
 `
 
 export const ImgWrap = styled.div`
         overflow: hidden;  
         height: 100%;
-        width: 40vw;
+        width: 40vw; 
         @media (max-width: 680px) {
                 width: 90vw;
-                height: 100%;
-                
+                height: 100%; 
         }
 
         img{
@@ -86,6 +90,10 @@ export const ImgWrap = styled.div`
                         width: 100%;
                         object-position:top center;
                 }
+        }
+        @keyframes fadeIn {
+                0% {opacity:0;}
+                100% {opacity:1;}
         }
 `
 

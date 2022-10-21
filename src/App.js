@@ -1,7 +1,7 @@
 import Nav from "./Components/Nav/Nav";
 import { Header } from "./Components/Header/Header";
 import { Card } from "./Components/Cards/Card";
-import GlobalStyle from "./Layout/GlobalStyles";
+import { GlobalStyle } from "./Layout/GlobalStyles";
 // import { BGShapes } from "./Layout/BackgroundShapes"
 import Images from "./Assets/Images";
 import { ThemeProvider } from "styled-components";

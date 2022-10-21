@@ -2,11 +2,13 @@ import { Wrapper } from './NavLinks.styled';
 import { IconContext } from 'react-icons';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import ScrollButton from './ScrollButton';
+import { useSpring, animated } from 'react-spring';
 
 const Nav = () => {
-    return (
+        const slide = useSpring({  config: { mass: 1, friction: 28}, from: { x: -200, opacity:  0 }, to: {  x: 0, opacity:   1 }})
+        return (
             <Wrapper>
-                <div className="contactWrap">
+                <animated.div style={slide} className="contactWrap">
                 <IconContext.Provider value={{ size: "35", className: 'Icons' }}>
                     <a className="IconsLink" href="mailto:darochamtth@gmail.com">
                         <FaEnvelope title={"Envoyer un Email"}/>
@@ -18,7 +20,7 @@ const Nav = () => {
                         <FaGithub title={"Profil Github"}/>
                     </a>
                 </IconContext.Provider>
-                </div>
+                </animated.div>
              <ScrollButton/>
             </Wrapper>
     );

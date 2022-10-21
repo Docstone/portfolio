@@ -8,7 +8,7 @@ export const Card = (props) => {
 
   const SlideIn = ({ children }) => {
     const [inView, setInView ] = useState(false);
-    const slide = useSpring({  config: { mass: 2, friction: 28},  to: {  x: !inView ? 2000 : 0, opacity: !inView ? 0 : 1 }})
+    const slide = useSpring({  config: { mass: 1, friction: 28},  to: {  x: !inView ? 2000 : 0, opacity: !inView ? 0 : 1 }})
     return (
       <Waypoint topOffset='30%' bottomOffset='30%'  scrollableAncestor={window}  onEnter={() => setInView(true)}>
         <animated.div style={slide}>
@@ -23,7 +23,7 @@ export const Card = (props) => {
         <Container>
             <Content className={'content'} theme={props.theme}>
               <ImgWrap>
-                <img src={props.cardImage} alt="Capture d'écran"></img>
+                <img className="fadeIn" src={props.cardImage} alt="Capture d'écran"></img>
               </ImgWrap>
               <div className="linksContainer">
               {props.Links ? props.Links.map(link => (
