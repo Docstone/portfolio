@@ -3,20 +3,17 @@ import { Header } from "./Components/Header/Header";
 import { Card } from "./Components/Cards/Card";
 import GlobalStyle from "./Layout/GlobalStyles";
 // import { BGShapes } from "./Layout/BackgroundShapes"
-import { Slide, Fade } from "react-awesome-reveal";
 import Images from "./Assets/Images";
 import { ThemeProvider } from "styled-components";
 // import { ParallaxProvider } from 'react-scroll-parallax';
+
 
 function App() {
   return (
       <div className="Wrap">
         <GlobalStyle />
         <Nav/>
-        <Fade triggerOnce  delay={50}>
         <Header/>
-        </Fade>
-        <Slide triggerOnce direction={"right"} delay={40} fraction={.35}>
         <ThemeProvider theme={themeBooki}>
         <Card
           cardImage={Images.bookiSC}
@@ -71,7 +68,6 @@ function App() {
           Links={[{text:'Voir le Code', url: 'https://github.com/Docstone/P6_Groupofull'}]}
           />
         </ThemeProvider>
-      </Slide>
     </div>
   );
 }

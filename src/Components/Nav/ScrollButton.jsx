@@ -1,7 +1,6 @@
 import {useState} from 'react';
 import {FaArrowCircleUp} from 'react-icons/fa';
 import { Button } from './NavLinks.styled';
-import { Fade } from "react-awesome-reveal";
 
   
 const ScrollButton = () =>{
@@ -31,11 +30,9 @@ const ScrollButton = () =>{
   
   return (
     <Button>
-     <Fade duration={5000}>
-         <FaArrowCircleUp className='scrollArrow'
-         onClick={scrollToTop}
-         style={{display: visible ? 'inline' : 'none' }} />
-     </Fade>
+      <FaArrowCircleUp className='scrollArrow'
+      onClick={scrollToTop}
+      style={{display: visible ? 'inline' : 'none' }} />
     </Button>
   );
 }

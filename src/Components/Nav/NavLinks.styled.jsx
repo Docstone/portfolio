@@ -7,7 +7,6 @@ export const Wrapper = styled.nav`
     width: 100%;
     top:0;
     left:0;
-    height: 100vh;
     width:4rem;
     color: #090606;
     z-index: 10;
@@ -17,7 +16,7 @@ export const Wrapper = styled.nav`
         flex-direction: row;
         width: 100vw;
         height: 5rem;
-        margin: 2rem 0 0; 
+        margin: 1rem 0 0; 
     }
 
     .Icons{
@@ -38,10 +37,10 @@ export const Wrapper = styled.nav`
     }
 
     .contactWrap{
-            margin-top: 14vh;
+            margin-top: 10vh;
 
             @media (max-width: 680px) {
-                margin: 7vh 2vw;
+                margin:1vh 2vw;
             }
         }
 `;

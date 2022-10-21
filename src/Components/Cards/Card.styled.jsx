@@ -4,7 +4,8 @@ export const Container = styled.div`
         display: flex;
         flex-direction: row;
         align-items:center;
-        margin: 9vh 0 13vh 13vw;
+        margin: 20vh 0 13vh 13vw;
+        z-index: 1;
         &:hover .content{
                 background-color: ${props => props.theme.primary};
                 transform: scale(1.05);
@@ -19,6 +20,7 @@ export const Container = styled.div`
 ` 
 
 export const Description = styled.div`
+        z-index: 1;
         display:flex;
         color: #000000;
         font-size:1rem;
