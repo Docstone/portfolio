@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.81290943.js",
-    "static/media/BookiDesktop.png": "/portfolio/static/media/BookiDesktop.194ce640491309c8803c.png",
-    "static/media/face.png": "/portfolio/static/media/face.5488af01bd29dd436e76.png",
-    "static/media/ChouetteDesktop.png": "/portfolio/static/media/ChouetteDesktop.ac2761d644c2b4886965.png",
-    "static/media/GroupoDesktop.png": "/portfolio/static/media/GroupoDesktop.fcc8b13ddc45eda73ba5.png",
-    "static/media/Banner.jpg": "/portfolio/static/media/Banner.ffbc0ab9e49c095fc3bc.jpg",
-    "static/media/OhmyfoodDesktop.png": "/portfolio/static/media/OhmyfoodDesktop.03fe23ac65b0258c3c9f.png",
-    "static/media/HottakesDesktop.png": "/portfolio/static/media/HottakesDesktop.a21ac950ae36df93edb1.png",
-    "static/media/KanapDesktop.png": "/portfolio/static/media/KanapDesktop.f870fd7efbf942e0fb4e.png",
+    "main.js": "/portfolio/static/js/main.804e8cab.js",
+    "static/media/BookiDesktop.png": "/portfolio/static/media/BookiDesktop.b1bebd301b474fb67a5f.png",
+    "static/media/ChouetteDesktop.png": "/portfolio/static/media/ChouetteDesktop.36e4fbb0a93ca958583b.png",
+    "static/media/face.png": "/portfolio/static/media/face.63c50487e16c84f91a44.png",
+    "static/media/GroupoDesktop.png": "/portfolio/static/media/GroupoDesktop.a83e710bab1ce91dae98.png",
+    "static/media/Banner.jpg": "/portfolio/static/media/Banner.aaf12f498d09568d9bab.jpg",
+    "static/media/OhmyfoodDesktop.png": "/portfolio/static/media/OhmyfoodDesktop.ca5a49a82fd79c6bf80d.png",
+    "static/media/HottakesDesktop.png": "/portfolio/static/media/HottakesDesktop.be92de5de6864dc3d1b3.png",
     "static/media/nsrs.png": "/portfolio/static/media/nsrs.7719de85e20b3a55d90b.png",
     "static/media/nem.png": "/portfolio/static/media/nem.a9580891550bcf48d267.png",
-    "static/media/hcs.png": "/portfolio/static/media/hcs.85577113e00698530d7a.png",
-    "static/media/js.png": "/portfolio/static/media/js.ca1692b2e0bd79e70a16.png",
-    "static/media/googhtmlcss.png": "/portfolio/static/media/googhtmlcss.e5b8f1b0e0a728e71e2a.png",
-    "static/media/htmlcss.png": "/portfolio/static/media/htmlcss.9c980b78154b1d9aabcb.png",
-    "static/media/Groupo.png": "/portfolio/static/media/Groupo.837f24cb4eb413b2252e.png",
-    "static/media/Kanap.png": "/portfolio/static/media/Kanap.ee02a478bc24b05af54c.png",
+    "static/media/KanapDesktop.png": "/portfolio/static/media/KanapDesktop.6112ea86bbb801ffb6b2.png",
+    "static/media/js.png": "/portfolio/static/media/js.fcdc49eebfd7110e2d4b.png",
+    "static/media/hcs.png": "/portfolio/static/media/hcs.5ff6001a2b5da6c0c9db.png",
+    "static/media/googhtmlcss.png": "/portfolio/static/media/googhtmlcss.0bcd50b420be12904a43.png",
     "index.html": "/portfolio/index.html",
-    "main.81290943.js.map": "/portfolio/static/js/main.81290943.js.map"
+    "main.804e8cab.js.map": "/portfolio/static/js/main.804e8cab.js.map"
   },
   "entrypoints": [
-    "static/js/main.81290943.js"
+    "static/js/main.804e8cab.js"
   ]
 }
