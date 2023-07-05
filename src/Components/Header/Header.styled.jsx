@@ -11,7 +11,11 @@ export const Content = styled.div`
     margin: 3rem auto;
     padding: 2rem 2rem 1rem;
     color: #000000;
-    animation: ${fadeIn} 1.5s ease-out;
+    animation: ${fadeIn} 3s ease-in-out;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
 
     @media (max-width: 680px) {
     margin: max(15vw, 2rem) 2vw 10vh;

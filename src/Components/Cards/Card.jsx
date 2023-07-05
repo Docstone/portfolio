@@ -8,7 +8,7 @@ export const Card = (props) => {
 
   const SlideIn = ({ children }) => {
     const [inView, setInView ] = useState(false);
-    const slide = useSpring({  config: { mass: 1, friction: 28},  to: {  x: !inView ? 2000 : 0, opacity: !inView ? 0 : 1 }})
+    const slide = useSpring({  config: { mass: 1, friction: 28 },  to: {  x: !inView ? 2000 : 0 }})
     return (
       <Waypoint topOffset='30%' bottomOffset='30%'  scrollableAncestor={window}  onEnter={() => setInView(true)}>
         <animated.div style={slide}>

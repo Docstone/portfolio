@@ -7,7 +7,7 @@ export const Container = styled.div`
         align-items:center;
         margin: 10vh 0 10vh 13vw;
         z-index: 1;
-        animation: ${fadeIn} 1.5s ease-out;
+        animation: ${fadeIn} 1.5s linear;
 
         &:hover .content{
                 background-color: ${props => props.theme.primary};
