@@ -61,7 +61,7 @@ export const Content = styled.div`
     }
 
     .faceWrap{
-       height:15vw;
+       height:21vw;
        border-radius: 50%;
        margin-left: 1rem;
        z-index: 1;
@@ -70,7 +70,7 @@ export const Content = styled.div`
 
        @media (max-width: 680px) {
         position: absolute;
-        min-height:30vw;
+        min-height:40vw;
         top:4rem;
         right: 2rem;
         }
